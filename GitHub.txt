@@ -1,0 +1,18 @@
+This is the place to save every steps in github assignments.
+Part1(Terminal 1)
+mkdir User1
+git clone https://github.gatech.edu/gt-se-cs6301-spring2018/6301Spring18fxiong32.git
+cd 6301Spring18fxiong32
+mkdir Assignment2
+cd Assignment2
+git checkout -b master1
+type NUL > myinfo.txt
+notepad myinfo.txt
+
+git commit -m "your message"
+git commit --amend -m "New commit message"
+
+git remote update origin --prune
+
+git push origin --all
+git add myinfo.txt
